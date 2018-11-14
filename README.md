@@ -1,13 +1,16 @@
 # Foodie-Web-Service
 A REST API that takes an address as input and returns a JSON formatted list of nearby restaurants
 
-<h6>To get started</h6>
-Install flask
-Install these modules:
-pip install pygeocodio
-pip install pyzomato
-
-To run: python app.py
+<h1>How to get started</h1>
+<ol>
+  <li>Install flask</li>
+  <li>Install these modules:</li>
+  <ol>
+      <li>pip install pygeocodio</li>
+      <li>pip install pyzomato</li>
+  </ol>
+  <li>To run: python app.py</li>
+</ol>
 
 <h1>How to use our service:</h1>
 <p>In the address bar, enter http://127.0.0.1:5000/restaurants/?address=&lt;ADDRESS&gt;</p>
