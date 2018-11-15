@@ -15,7 +15,8 @@ def home():
 @app.route("/restaurants")
 def restaurants():
     address = request.args.get('address')
-
+    if not address:
+        return "Bad Request!<br>Address parameter is empty or invalid."
     client = GeocodioClient('e69dd65d59f64d56bb99e5fea55f5b1d999a696')
     zomato = Pyzomato('188eda180987998d1dd37a7b93fee08a')
 
