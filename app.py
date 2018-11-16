@@ -9,7 +9,7 @@ app.config['JSON_SORT_KEYS'] = False
 
 @app.route('/')
 def home():
-    return '<h1>Welcome to Foodie Web Services</h1><p>Our web service takes a HTTP request with an address parameter and respond with a list popular restaurants nearby.</p><br /><hr /><h1>How to use our service:</h1><p>In the address bar, enterhttp://127.0.0.1:5000//restaurants/?address=&lt;ADDRESS&gt;</p><p>Make sure to have a valid address containing:</p><ol>  <li>Street </li>  <li>City/Town/Village </li>  <li>Zip Code</li></ol>'
+    return '<h1>Welcome to Foodie Web Services</h1><p>Our web service takes a HTTP request with an address parameter and respond with a list of popular nearby restaurants.</p><br /><hr /><h1>How to use our service:</h1><p>In the address bar, enter http://127.0.0.1:5000//restaurants/?address=&lt;ADDRESS&gt;</p><p>Make sure to have a valid address containing:</p><ol>  <li>Street </li>  <li>City/Town/Village </li>  <li>Zip Code</li></ol>'
 
 
 @app.route("/restaurants")
