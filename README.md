@@ -1,4 +1,4 @@
-# Foodie-Web-Service
+# Nearby Restaurants Web Service
 A REST API that takes an address as input and returns a JSON formatted list of nearby restaurants
 
 <h1>How to get started</h1>
